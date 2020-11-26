@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: myrabbitmq
+  rabbitmq:
+    username: linda
+    passowrd: linda
+    host: localhost
+    port: 5672
+
+
