@@ -1,0 +1,14 @@
+*2
+$6
+SELECT
+$1
+0
+*4
+$4
+hset
+$6
+myhash
+$5
+today
+$6
+monday
