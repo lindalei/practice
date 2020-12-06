@@ -1,0 +1,31 @@
+#spring:
+#  application:
+#    name: stock-service
+#  cloud:
+#    nacos:
+#      server-addr: 127.0.0.1:8848
+#      metadata:
+#        version: v3
+#      cluster-name: SH
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/nacos
+#    username: mduser
+#    password: mdpassword
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: create
+#      naming:
+#        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#      properties:
+#        hibernate:
+#          jdbc:
+#            lob:
+#              non_contextual_creation: true
+#            time_zone: UTC
+#          dialect: org.hibernate.dialect.PostgreSQLDialect
+#
+#server:
+#  port: 9002
